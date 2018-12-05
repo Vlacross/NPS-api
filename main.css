@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: silver;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 8px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px grey;
+    padding: 8px;
+}
+
+fieldset {
+   
+    border: dotted 0.25px blue;
+    padding: 8px;
+}
+
+a {
+  color: rgba(236, 236, 113, 0.965)
+}
+
+a:hover {
+  color: rgb(210, 177, 241)
+}
+
+ul {
+    color: silver;
+    /* border: solid 1px rgb(5, 56, 5); */
+    padding: 8px;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid 1px rgb(5, 56, 5);
+  padding: 8px;
+}
+
+
+.js-results {
+    color: white;
+    border: solid 0.5px white;
+    padding: 8px;
+
+}
+
+.results-legend {
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+
